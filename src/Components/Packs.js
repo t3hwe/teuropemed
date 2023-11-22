@@ -28,6 +28,10 @@ const Work = () => {
       title: "PACK NORMAL 347.56€",
       text: "Ceci englobe les points 1 et 2.",
     },
+    {
+      title: "Et beaucoup plus",
+      text: "Prenez votre premier RDV pour en savoir plus.",
+    },
   ];
   return (
     <div className="work-section-wrapper">
