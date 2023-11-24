@@ -21,7 +21,7 @@ const Footer = () => {
       </div>
       <div className="footer-section-two">
         <div className="footer-section-columns">
-          <span><a href="/mentionslegales">Mentions légales</a>   -   <a href="/cgu">CGU</a>   -   <a href="/politiquedeconfidentialite">Politique de confidentialité</a></span>
+          <span><a href="/mentionslegales" style={{ color: 'inherit', textDecoration: 'none' }}>Mentions légales</a>   -   <a href="/cgu" style={{ color: 'inherit', textDecoration: 'none' }}>CGU</a>   -   <a href="/politiquedeconfidentialite" style={{ color: 'inherit', textDecoration: 'none' }}>Politique de confidentialité</a></span>
         </div>
         <div className="footer-section-columns">
         </div>
