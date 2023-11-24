@@ -19,27 +19,51 @@ import { NumbersTwoTone } from "@mui/icons-material";
 const Work = () => {
   const workInfoData = [
     {
-      image: PUm,
-      title: "PACK NORMAL 474,99€ (au lieu de 499,44€)",
-      text: "Ceci englobe les points 1, 2 et 3, constituant ainsi une candidature suite au traitement du dossier.",
+      title: "Médecine",
+      text: "#100 places",
     },
     {
-        image: PDois,
-      title: "PACK NORMAL 347.56€",
-      text: "Ceci englobe les points 1 et 2.",
+      title: "Médecine Dentaire",
+      text: "#243 places",
     },
     {
-      title: "Et beaucoup plus",
-      text: "Prenez votre premier RDV pour en savoir plus.",
+      title: "Médecine Vétérinaire",
+      text: "#79 places",
+    },
+    {
+      title: "Kinésithérapie",
+      text: "#450 places",
+    },
+    {
+      title: "Pharmacie",
+      text: "#237 places",
+    },
+    {
+      title: "Soins infirmiers",
+      text: "#478 places",
+    },
+    {
+      title: "Sciences Biomédicales",
+      text: "#278 places",
+    },
+    {
+      title: "Orthophonie",
+      text: "#40 places",
+    },
+    {
+      title: "Licence en Psychologie",
+      text: "#157 places",
+    },
+    {
+      title: "Et pleins d’autres formations",
     },
   ];
   return (
     <div className="work-section-wrapper">
       <div className="work-section-top">
-        <p className="primary-subheading">Pack</p>
-        <h1 className="primary-heading">Voici nos Packs !</h1>
+        <p className="primary-subheading">Formations</p>
+        <h1 className="primary-heading">Voici les Formations !</h1>
         <p className="primary-text">
-          Voici les pris pour l'année 2024/25.
         </p>
       </div>
       <div className="work-section-bottom">
