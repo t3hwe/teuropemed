@@ -3,6 +3,7 @@ import "./App.css";
 import {BrowserRouter, Routes, Route, Navigate} from 'react-router-dom';
 
 import Home from "./Landing/Home";
+import Education from "./Landing/Education";
 import Work from "./Landing/Work";
 import Etapes from "./Landing/Etapes";
 import Formations from "./Landing/Formations";
@@ -26,6 +27,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />
+        <Route path='/education' element={<Education />} />
         <Route path='/etapes' element={<Etapes />} />
         <Route path='/formations' element={<Formations />} />
         <Route path='/lespoints' element={<Work />} />

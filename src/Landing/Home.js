@@ -111,7 +111,7 @@ const Home = () => {
           <p className="primary-subheading">Packs</p>
           <h1 className="primary-heading">Voici nos Packs !</h1>
           <p className="primary-text">
-            Voici les pris pour l'année 2024/25.
+          Nos tarifs 2024/2025.
           </p>
         </div>
         <div className="work-section-bottom">

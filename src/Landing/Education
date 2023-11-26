@@ -1,0 +1,72 @@
+import React from "react";
+import BannerBackground from "../Assets/home-banner-background.png";
+import BannerImage from "../Assets/home-banner-image.png";
+import { FiArrowRight } from "react-icons/fi";
+import { BsFillPlayCircleFill } from "react-icons/bs";
+import OptionCard from "../components/OptionCard"; // Create a reusable OptionCard component
+
+const Home = () => {
+  const optionsData = [
+    {
+      title: "Option 1",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      buttonText: "Learn More",
+      link: "/option1",
+    },
+    {
+      title: "Option 2",
+      description: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      buttonText: "Learn More",
+      link: "/option2",
+    },
+    {
+      title: "Option 3",
+      description: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+      buttonText: "Learn More",
+      link: "/option3",
+    },
+    {
+      title: "Option 4",
+      description: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      buttonText: "Learn More",
+      link: "/option4",
+    },
+    {
+      title: "Option 5",
+      description: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      buttonText: "Learn More",
+      link: "/option5",
+    },
+  ];
+
+  return (
+    <div className="home-container">
+      <div className="home-banner-container">
+        <div className="home-bannerImage-container">
+          <img src={BannerBackground} alt="" />
+        </div>
+        <div className="home-text-section">
+          <h1 className="primary-heading">
+            Welcome to Our Services
+          </h1>
+          <p className="primary-text">
+            Discover the options we offer.
+          </p>
+        </div>
+        <div className="home-image-section">
+          <img src={BannerImage} alt="" />
+        </div>
+      </div>
+
+      <div className="options-section">
+        <div className="options-container">
+          {optionsData.map((option, index) => (
+            <OptionCard key={index} option={option} />
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Home;

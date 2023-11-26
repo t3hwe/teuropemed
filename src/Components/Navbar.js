@@ -21,19 +21,23 @@ const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
   const menuOptions = [
     {
-      text: "Home",
+      text: "Accueil",
       link: "/"
     },
     {
-      text: "Les Formations",
+      text: "A Propos De Nous",
+      link: "/"
+    },
+    {
+      text: "Formations",
       link: "/formations"
     },
     {
-      text: "Les Points",
+      text: "Nos Services",
       link: "/lespoints"
     },
     {
-      text: "Contacte",
+      text: "Contact",
       link: "/"
     },
     {
